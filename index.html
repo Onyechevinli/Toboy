@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sealed-autos Ltd — Mercedes Spare Parts</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <img src="assets/logo.png" alt="Sealed-autos Ltd" class="logo" />
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container hero">
+    <h1>Sealed-autos Ltd</h1>
+    <p class="tagline">Quality Mercedes spare parts — genuine & aftermarket</p>
+
+    <section class="catalog">
+      <article class="card">
+        <h2>Engine Parts</h2>
+        <p>Spark plugs, timing components, filters and more.</p>
+      </article>
+      <article class="card">
+        <h2>Suspension & Brakes</h2>
+        <p>Shocks, springs, brake pads, discs — OEM and performance.</p>
+      </article>
+      <article class="card">
+        <h2>Electrical</h2>
+        <p>Sensors, alternators, Front and rear Headlamps, chargers, and electronic modules.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>Get in touch</h3>
+      <p>Email: <a href="mailto:sales@Sealed-autos.com">sales@Sealed-autos.com</a></p>
+      <p>Phone: +234 8024101828</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Umevin Ltd — All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
